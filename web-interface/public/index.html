@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Search Engine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mini Search Engine</h1>
+            <p>Search through our database of problems and solutions</p>
+        </header>
+        
+        <div class="search-container">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Enter your search query..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p>Searching...</p>
+        </div>
+        
+        <div id="results" class="hidden">
+            <h2>Search Results</h2>
+            <div id="result-content">
+                <div id="result-text"></div>
+                <div id="result-url-container">
+                    <p>Find out more at: <a id="result-url" href="#" target="_blank"></a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="no-results" class="hidden">
+            <p>No results found. Your query has been added to our database for future reference.</p>
+        </div>
+        
+        <div id="error" class="hidden">
+            <p>An error occurred while processing your request. Please try again later.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Mini Search Engine Project - Built with C++, Node.js, and Web Technologies</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
