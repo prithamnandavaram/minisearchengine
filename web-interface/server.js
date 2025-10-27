@@ -82,8 +82,16 @@ app.post('/api/search', (req, res) => {
             });
         }
     });
-});// Serve the main HTML page
+});
+
+// Serve the main HTML page
 app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+// Handle all other routes (for SPA - Single Page Application)
+// This fixes the "Not Found" issue on refresh
+app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 

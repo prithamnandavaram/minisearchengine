@@ -1,115 +1,81 @@
-# Mini Search Engine for DSA Problems
+# Search Engine
 
-## Why I Built This
+## Overview
 
-During my DSA preparation, I was solving problems daily and logging them in a text file (problem name + URL). After 100+ problems, finding specific ones became painful - I'd either scroll through hundreds of lines or use basic Ctrl+F.
+A text-based search engine built in C++ with a web interface. I created this to solve my own problem of quickly searching through a large collection of text entries instead of manually scrolling through files.
 
-Instead of switching to Excel like my friends, I thought: "Why not build my own search engine?" This way I could:
-- Keep my simple text file workflow
-- Learn C++ STL containers practically  
-- Build something actually useful for my prep
-- Have a cool project for interviews
+## Features
 
-## What It Does
-
-Smart search through my DSA problem collection:
-- Multi-word queries (e.g., "binary search tree")
-- Relevance ranking (matches more words = higher rank)
-- Case-insensitive search
-- Web interface for easy access
-- Instant results from 455+ problems
+- Multi-word search queries
+- Relevance ranking (more matching words = higher rank)
+- Case-insensitive pattern matching
+- Real-time search results
+- Web-based interface
+- Handles 455+ entries efficiently
 
 ## Tech Stack
 
 **Backend:** C++ with STL (maps, vectors, regex)  
 **API:** Node.js + Express  
-**Frontend:** Vanilla HTML/CSS/JS  
-**Data:** Text files (problems + solution URLs)
+**Frontend:** HTML/CSS/JavaScript  
+**Data Storage:** Text files
 
-## Running Locally
+## Quick Start
 
 ```bash
-# Quick start
+# Install and run
 npm install
 npm start
-
-# Or manually:
-g++ -o search_engine Mini_Search_Engine_CLI.cpp -std=c++11
-cd web-interface && npm install && node server.js
 
 # Visit http://localhost:3000
 ```
 
-## Deployment (Render)
+## How It Works
 
-1. Fork/clone this repo
-2. Connect to [Render.com](https://render.com)
-3. Build Command: `npm run build`
-4. Start Command: `npm start`
-5. Auto-deploys on push!
+1. Data is stored in two text files: entries and their metadata
+2. C++ engine tokenizes queries and uses regex for pattern matching
+3. Results are ranked by relevance (number of matching terms)
+4. Node.js API serves the web interface and executes the C++ engine
 
 ## Architecture
 
 ```
-Query → Node.js API → C++ Search Engine → Ranked Results → JSON Response
+User Query → Express API → C++ Engine → Ranked Results → JSON Response
 ```
 
-The C++ engine handles file parsing, regex matching, and ranking. Node.js provides the web interface and API.
+## Deployment
 
-## Project Structure
+**Live Demo:** https://minisearchengine.onrender.com
 
-```
-minisearchengine/
-├── Mini_Search_Engine_CLI.cpp   # C++ search engine
-├── Generic_Problem.txt           # Problem database
-├── Generic_Solution.txt          # Solution URLs
-├── package.json                  # Build scripts
-└── web-interface/
-    ├── server.js                 # Express API
-    └── public/                   # Frontend
-```
+Deploy on Render:
+1. Connect GitHub repository
+2. Build Command: `npm run build`
+3. Start Command: `npm start`
+4. Deploy!
+
+## Key Technical Features
+
+- **Efficient Search:** O(N*M*W) complexity where N=entries, M=avg length, W=query words
+- **Smart Ranking:** Uses match count for relevance scoring
+- **Regex Pattern Matching:** Word boundaries prevent partial matches
+- **STL Containers:** Maps for O(log n) access, vectors for dynamic storage
 
 ## Sample Searches
 
-- "array" → Returns 24 array-related problems
-- "binary tree" → Tree problems ranked by relevance  
-- "dynamic programming" → DP problems with solution links
+Try searching for:
+- Single words: "array", "tree", "stack"
+- Multiple words: "binary search", "dynamic programming"
+- Specific topics: "graph traversal", "sorting algorithms"
 
 ## What I Learned
 
-- STL containers performance trade-offs (map vs unordered_map)
-- Regex pattern matching and optimization
-- File I/O and memory management in C++
+- Practical application of C++ STL containers
+- Regex optimization and pattern matching
 - Building REST APIs with Node.js
-- System design for search applications
-- Deployment and DevOps basics
-
-## Key Features
-
-**Multi-word Search:** Query is tokenized and each word is searched independently  
-**Relevance Ranking:** Results ranked by how many search terms match  
-**Case Insensitive:** Matches "Array", "array", and "ARRAY"  
-**Smart Pattern Matching:** Word boundaries prevent partial matches  
-**Real-time Results:** Instant search through 455+ problems
-
-## Development Journey
-
-Built over 7 days during interview prep. Main challenges:
-- Regex pattern matching (word boundaries)
-- Vector bounds checking for multi-word queries
-- File path handling for deployment
-- Result ranking algorithm design
-
-## Future Improvements
-
-- Auto-complete using Trie data structure
-- Fuzzy search for typos (Levenshtein distance)
-- Query caching with LRU eviction
-- Problem difficulty filtering
-- Mobile app version
+- Integrating compiled binaries with web services
+- System design for search functionality
 
 ---
 
 **Repository:** [github.com/prithamnandavaram/minisearchengine](https://github.com/prithamnandavaram/minisearchengine)  
-**Tech:** C++11, STL, Node.js, Express, Regex  
-**Database:** Striver's A2Z DSA Sheet (455 problems)
+**Tech:** C++11, STL, Node.js, Express, Regex
