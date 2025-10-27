@@ -32,10 +32,14 @@ app.post('/api/search', (req, res) => {
     
     // Path to the C++ executable
     const executablePath = path.join(__dirname, '..', 'search_engine');
+    const workingDirectory = path.join(__dirname, '..');
     
     console.log(`Executing: "${executablePath}" "${sanitizedQuery}"`);
-    // Execute the C++ program
-    const searchProcess = exec(`"${executablePath}" "${sanitizedQuery}"`, {maxBuffer: 1024 * 1024}, (error, stdout, stderr) => {
+    // Execute the C++ program with correct working directory
+    const searchProcess = exec(`"${executablePath}" "${sanitizedQuery}"`, {
+        maxBuffer: 1024 * 1024,
+        cwd: workingDirectory  // Set working directory to project root
+    }, (error, stdout, stderr) => {
         // Log more detailed information about the execution
         console.log("======== SEARCH ENGINE EXECUTION ========");
         console.log(`Command: "${executablePath}" "${sanitizedQuery}"`);
