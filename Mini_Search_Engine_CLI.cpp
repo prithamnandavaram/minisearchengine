@@ -199,20 +199,28 @@ string Solutions::subSearch(int matchedWordsCount, int totalWords, string queryS
                 if(problemLineMap.find(lineNum) != problemLineMap.end()){
                     string problemText = problemLineMap[lineNum];
                     string solutionURL = "";
+                    string description = "";
                     
                     if(solutionUrlMap.find(lineNum) != solutionUrlMap.end()) {
                         string fullLine = solutionUrlMap[lineNum];
-                        // Extract URL before the pipe separator (if exists)
+                        // Extract URL and description separated by pipe
                         size_t pipePos = fullLine.find(" | ");
                         if(pipePos != string::npos) {
                             solutionURL = fullLine.substr(0, pipePos);
+                            description = fullLine.substr(pipePos + 3); // Skip " | "
                         } else {
                             solutionURL = fullLine;
                         }
                     }
                     
+                    // Combine URL and description for display
+                    string fullSolution = solutionURL;
+                    if(!description.empty()) {
+                        fullSolution = solutionURL + "\n  📝 " + description;
+                    }
+                    
                     // Add to our results
-                    searchResults.push_back(SearchResult(lineNum, problemText, solutionURL, matchCount));
+                    searchResults.push_back(SearchResult(lineNum, problemText, fullSolution, matchCount));
                     cerr << "Line " << lineNum << " has " << matchCount << " word matches" << endl;
                 }
             }
