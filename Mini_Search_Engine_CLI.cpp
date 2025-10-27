@@ -201,7 +201,14 @@ string Solutions::subSearch(int matchedWordsCount, int totalWords, string queryS
                     string solutionURL = "";
                     
                     if(solutionUrlMap.find(lineNum) != solutionUrlMap.end()) {
-                        solutionURL = solutionUrlMap[lineNum];
+                        string fullLine = solutionUrlMap[lineNum];
+                        // Extract URL before the pipe separator (if exists)
+                        size_t pipePos = fullLine.find(" | ");
+                        if(pipePos != string::npos) {
+                            solutionURL = fullLine.substr(0, pipePos);
+                        } else {
+                            solutionURL = fullLine;
+                        }
                     }
                     
                     // Add to our results
