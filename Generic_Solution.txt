@@ -1,250 +1,250 @@
-https://www.geeksforgeeks.org/programs-printing-pattern-nested-loops/ | Started with pattern printing - helped me understand loop control and nested iterations
-https://www.geeksforgeeks.org/cpp-data-types/ | Learned about int, char, float types and their memory sizes
-https://www.geeksforgeeks.org/decision-making-c-cpp/ | Practiced if-else conditions for decision making logic
-https://www.geeksforgeeks.org/switch-statement-cc/ | Used switch-case for menu driven programs
-https://www.geeksforgeeks.org/for-loop-in-cpp/ | Mastered for loops for fixed iterations
-https://www.geeksforgeeks.org/cpp-while-loop/ | Understood while loops for condition-based iterations
-https://www.geeksforgeeks.org/functions-in-c/ | Created reusable functions with parameters and return types
-https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/ | Analyzed Big O notation - crucial for optimization
-https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/ | Deep dived into space complexity and auxiliary space
-https://www.geeksforgeeks.org/programs-printing-pattern-nested-loops/ | Solved various star and number patterns
-https://www.geeksforgeeks.org/recursion-in-cpp/ | Understood recursion with base case and recursive calls
-https://www.geeksforgeeks.org/hashing-data-structure/ | Learned hashing for O(1) lookups using maps
-https://www.geeksforgeeks.org/selection-sort/ | Implemented selection sort - finding min and swapping
-https://www.geeksforgeeks.org/bubble-sort/ | Practiced bubble sort with adjacent element swaps
-https://www.geeksforgeeks.org/insertion-sort/ | Used insertion sort for small arrays efficiently
-https://www.geeksforgeeks.org/merge-sort/ | Mastered merge sort with divide and conquer
-https://www.geeksforgeeks.org/quick-sort/ | Implemented quicksort using pivot partitioning
-https://www.geeksforgeeks.org/recursive-bubble-sort/ | Converted bubble sort to recursive version
-https://www.geeksforgeeks.org/recursive-insertion-sort/ | Made insertion sort recursive for practice
-https://www.geeksforgeeks.org/program-find-largest-element-array/ | Found max element using simple traversal
-https://www.geeksforgeeks.org/find-second-largest-element-array/ | Got second largest without sorting in O(n)
-https://www.geeksforgeeks.org/program-check-array-sorted-not-iterative-recursive/ | Checked if array is sorted in one pass
-https://www.geeksforgeeks.org/remove-duplicates-sorted-array/ | Removed duplicates in-place using two pointers
-https://www.geeksforgeeks.org/rotate-array-by-one/ | Rotated array elements left by one position
-https://www.geeksforgeeks.org/array-rotation/ | Rotated array by d places using reversal algorithm
-https://www.geeksforgeeks.org/move-zeroes-end-array/ | Moved all zeros to end while maintaining order
-https://www.geeksforgeeks.org/linear-search/ | Implemented basic linear search in array
-https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/ | Found union of sorted arrays using two pointers
-https://www.geeksforgeeks.org/find-the-missing-number/ | Found missing number using sum formula
-https://leetcode.com/problems/max-consecutive-ones/ | Counted longest streak of 1s in binary array
-https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/ | Found element appearing once using XOR
-https://www.geeksforgeeks.org/longest-subarray-sum-k/ | Found longest subarray with given sum for positives
-https://www.geeksforgeeks.org/longest-sub-array-sum-k/ | Extended for positive and negative numbers
-https://leetcode.com/problems/two-sum/ | Classic two sum using hashmap for O(n)
-https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/ | Dutch National Flag - sorted 0s 1s 2s in one pass
-https://www.geeksforgeeks.org/majority-element/ | Found element appearing more than n/2 times - Moore's voting
-https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/ | Kadane's algorithm for maximum subarray sum
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ | Found best day to buy and sell stock for max profit
-https://leetcode.com/problems/rearrange-array-elements-by-sign/ | Rearranged positive negative maintaining order
-https://leetcode.com/problems/next-permutation/ | Generated next lexicographical permutation in-place
-https://www.geeksforgeeks.org/leaders-in-an-array/ | Found leaders - elements greater than all right elements
-https://leetcode.com/problems/longest-consecutive-sequence/ | Found longest consecutive sequence using set
-https://leetcode.com/problems/set-matrix-zeroes/ | Set matrix rows and columns to zero efficiently
-https://leetcode.com/problems/rotate-image/ | Rotated matrix 90 degrees clockwise in-place
-https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/ | Traversed matrix in spiral order
-https://www.geeksforgeeks.org/count-subarrays-with-given-sum/ | Counted subarrays with target sum using prefix
-https://www.geeksforgeeks.org/count-number-of-subsets-with-given-xor-value/ | Counted subarrays with given XOR value
-https://leetcode.com/problems/pascals-triangle/ | Generated Pascal's triangle row by row
-https://leetcode.com/problems/majority-element-ii/ | Found elements appearing more than n/3 times
-https://leetcode.com/problems/3sum/ | Found triplets with zero sum using two pointers
-https://leetcode.com/problems/4sum/ | Extended to four sum problem with sorting
-https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/ | Found largest subarray with sum zero
-https://www.geeksforgeeks.org/counting-inversions/ | Counted inversions using merge sort
-https://leetcode.com/problems/reverse-pairs/ | Counted reverse pairs with modified merge sort
-https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/ | Found missing and repeating numbers efficiently
-https://www.geeksforgeeks.org/count-reverse-pairs/ | Counted pairs where arr[i] > 2*arr[j]
-https://leetcode.com/problems/merge-intervals/ | Merged overlapping intervals after sorting
-https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/ | Merged two sorted arrays without extra space
-https://www.geeksforgeeks.org/binary-search/ | Implemented classic binary search on sorted array
-https://www.geeksforgeeks.org/implementing-lower_bound-and-upper_bound-in-cpp/ | Implemented lower bound - first element >= target
-https://www.geeksforgeeks.org/implementing-upper_bound-in-c/ | Implemented upper bound - first element > target
-https://leetcode.com/problems/search-insert-position/ | Found position to insert element in sorted array
-https://leetcode.com/problems/find-peak-element/ | Found peak element using binary search
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ | Found min in rotated sorted array
-https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/ | Counted rotations in rotated sorted array
-https://leetcode.com/problems/single-element-in-a-sorted-array/ | Found single non-duplicate in sorted array
-https://www.geeksforgeeks.org/n-th-root-number/ | Found nth root using binary search on answer
-https://www.geeksforgeeks.org/median-of-a-row-wise-sorted-matrix/ | Found median in row-wise sorted matrix
-https://www.geeksforgeeks.org/median-in-row-wise-sorted-matrix/ | Another approach for matrix median
-https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/ | Found smallest divisor using binary search
-https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/ | Minimum capacity to ship packages in d days
-https://leetcode.com/problems/koko-eating-bananas/ | Koko eating bananas - binary search on speed
-https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/ | Minimum days for m bouquets using binary search
-https://leetcode.com/problems/split-array-largest-sum/ | Split array to minimize largest sum
-https://www.geeksforgeeks.org/allocate-minimum-number-pages/ | Book allocation - minimize maximum pages
-https://www.spoj.com/problems/AGGRCOW/ | Aggressive cows - maximize minimum distance
-https://www.geeksforgeeks.org/painters-partition-problem/ | Painter's partition using binary search
-https://leetcode.com/problems/split-array-largest-sum/ | Another split array problem variant
-https://leetcode.com/problems/minimize-max-distance-to-gas-station/ | Minimize max distance between gas stations
-https://leetcode.com/problems/search-a-2d-matrix/ | Searched in 2D matrix treating it as 1D
-https://leetcode.com/problems/find-a-peak-element-ii/ | Found peak in 2D matrix efficiently
-https://www.geeksforgeeks.org/median-in-row-wise-sorted-matrix/ | Median in matrix using binary search
-https://leetcode.com/problems/row-with-maximum-ones/ | Found row with maximum 1s in binary matrix
-https://www.geeksforgeeks.org/check-if-strings-are-rotations-of-each-other/ | Checked if strings are rotations using concatenation
-https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/ | Checked anagrams using character frequency
-https://www.geeksforgeeks.org/find-first-occurrence-of-a-pattern-in-a-text/ | Found first pattern occurrence in text
-https://www.geeksforgeeks.org/count-number-of-vowels-consonants-spaces-in-a-string/ | Counted vowels, consonants and spaces
-https://leetcode.com/problems/longest-common-prefix/ | Found longest common prefix among strings
-https://leetcode.com/problems/isomorphic-strings/ | Checked if strings are isomorphic using mapping
-https://www.geeksforgeeks.org/caesar-cipher/ | Implemented Caesar cipher rotation
-https://www.geeksforgeeks.org/check-if-the-given-string-is-shuffled-substring-of-another-string/ | Verified shuffled substring
-https://leetcode.com/problems/reverse-words-in-a-string/ | Reversed words in string maintaining spaces
-https://leetcode.com/problems/longest-palindromic-substring/ | Found longest palindromic substring using expansion
-https://leetcode.com/problems/roman-to-integer/ | Converted Roman numerals to integers
-https://leetcode.com/problems/string-to-integer-atoi/ | Implemented atoi with edge cases
-https://leetcode.com/problems/longest-common-prefix/ | Another LCP problem for practice
-https://leetcode.com/problems/repeated-string-match/ | Found minimum repeats to make substring
-https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/ | Implemented Z algorithm for pattern matching
-https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/ | KMP algorithm with LPS array
-https://leetcode.com/problems/compare-version-numbers/ | Compared version numbers handling dots
-https://leetcode.com/problems/count-and-say/ | Generated count and say sequence
-https://leetcode.com/problems/valid-parentheses/ | Validated balanced parentheses using stack
-https://leetcode.com/problems/valid-palindrome-ii/ | Checked palindrome allowing one deletion
-https://www.geeksforgeeks.org/minimum-characters-added-front-make-string-palindrome/ | Found min chars to add for palindrome
-https://leetcode.com/problems/palindromic-substrings/ | Counted all palindromic substrings
-https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/ | Rabin Karp using rolling hash
-https://leetcode.com/problems/valid-number/ | Validated number format with decimals
-https://leetcode.com/problems/integer-to-english-words/ | Converted integers to English words
-https://leetcode.com/problems/implement-strstr/ | Implemented strStr for substring search
-https://leetcode.com/problems/longest-palindromic-substring/ | Longest palindrome using expand around center
-https://www.geeksforgeeks.org/linked-list-set-1-introduction/ | Learned linked list basics and structure
-https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/ | Inserted node at beginning of list
-https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/ | Inserted node at end of list
-https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/ | Deleted node from beginning
-https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/ | Deleted node from end
-https://www.geeksforgeeks.org/search-an-element-in-a-linked-list-iterative-and-recursive/ | Searched element in linked list
-https://www.geeksforgeeks.org/doubly-linked-list/ | Learned doubly linked list with prev pointers
-https://www.geeksforgeeks.org/doubly-linked-list/ | Inserted in DLL at various positions
-https://www.geeksforgeeks.org/doubly-linked-list/ | Deleted from DLL efficiently
-https://leetcode.com/problems/middle-of-the-linked-list/ | Found middle using slow and fast pointers
-https://leetcode.com/problems/reverse-linked-list/ | Reversed linked list iteratively
-https://leetcode.com/problems/remove-nth-node-from-end-of-list/ | Removed nth node from end in one pass
-https://leetcode.com/problems/add-two-numbers/ | Added two numbers represented as linked lists
-https://leetcode.com/problems/delete-node-in-a-linked-list/ | Deleted node when only node is given
-https://leetcode.com/problems/intersection-of-two-linked-lists/ | Found intersection point of two lists
-https://leetcode.com/problems/linked-list-cycle/ | Detected cycle using Floyd's algorithm
-https://leetcode.com/problems/linked-list-cycle-ii/ | Found starting point of cycle
-https://www.geeksforgeeks.org/flattening-a-linked-list/ | Flattened multilevel linked list
-https://leetcode.com/problems/rotate-list/ | Rotated linked list by k places
-https://leetcode.com/problems/copy-list-with-random-pointer/ | Deep copied list with random pointers
-https://leetcode.com/problems/palindrome-linked-list/ | Checked if linked list is palindrome
-https://leetcode.com/problems/reverse-nodes-in-k-group/ | Reversed nodes in groups of k
-https://www.geeksforgeeks.org/merge-sort-for-linked-list/ | Applied merge sort on linked list
-https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/ | Flattened multilevel DLL
-https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/ | Removed all duplicate nodes
-https://www.geeksforgeeks.org/delete-occurrences-given-key-doubly-linked-list/ | Deleted all occurrences in DLL
-https://leetcode.com/problems/copy-list-with-random-pointer/ | Another deep copy problem
-https://leetcode.com/problems/lru-cache/ | Implemented LRU cache with DLL and hashmap
-https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/ | Understood recursion fundamentals
-https://www.geeksforgeeks.org/recursively-print-n-different-ways-print-n-times/ | Printed name n times using recursion
-https://www.geeksforgeeks.org/factorial/ | Calculated factorial recursively
-https://www.geeksforgeeks.org/recursive-function-to-do-substring-search/ | Printed numbers in reverse order
-https://www.geeksforgeeks.org/recursive-program-to-print-numbers-from-1-to-n/ | Printed 1 to n using recursion
-https://www.geeksforgeeks.org/recursive-program-to-print-numbers-from-n-to-1/ | Printed n to 1 recursively
-https://www.geeksforgeeks.org/sum-of-natural-numbers-using-recursion/ | Calculated sum of first n numbers
-https://www.geeksforgeeks.org/generate-binary-strings-without-consecutive-1s/ | Generated binary strings without consecutive 1s
-https://leetcode.com/problems/generate-parentheses/ | Generated all balanced parentheses
-https://www.geeksforgeeks.org/generating-all-possible-subsequences-using-recursion/ | Generated all subsequences recursively
-https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x-using-recursion/ | Counted subsequences with sum k
-https://www.geeksforgeeks.org/subset-sum-problem-dp-25/ | Checked if subset with sum k exists
-https://leetcode.com/problems/combination-sum/ | Found combinations that sum to target
-https://leetcode.com/problems/combination-sum-ii/ | Combination sum without duplicates
-https://leetcode.com/problems/n-queens/ | Solved N Queens using backtracking
-https://leetcode.com/problems/sudoku-solver/ | Implemented Sudoku solver with backtracking
-https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/ | M-coloring graph problem
-https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/ | Rat in maze with backtracking
-https://leetcode.com/problems/word-break/ | Word break using recursion and memo
-https://leetcode.com/problems/palindrome-partitioning/ | Partitioned string into palindromes
-https://leetcode.com/problems/expression-add-operators/ | Added operators to form target
-https://www.geeksforgeeks.org/bit-manipulation/ | Learned bit manipulation basics
-https://www.geeksforgeeks.org/check-whether-k-th-bit-set-not/ | Checked if ith bit is set
-https://www.geeksforgeeks.org/check-if-a-number-is-odd-or-even-using-bitwise-operators/ | Checked odd/even using bitwise AND
-https://www.geeksforgeeks.org/count-set-bits-in-an-integer/ | Counted number of set bits
-https://www.geeksforgeeks.org/program-to-find-whether-a-no-is-power-of-two/ | Checked power of 2 using bits
-https://www.geeksforgeeks.org/count-number-flips-make-binary-string-alternate/ | Counted bits to flip A to B
-https://www.geeksforgeeks.org/position-of-rightmost-set-bit/ | Found position of rightmost set bit
-https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/ | Found odd occurring element with XOR
-https://www.geeksforgeeks.org/power-set/ | Generated power set using bits
-https://www.geeksforgeeks.org/calculate-xor-1-n/ | Calculated XOR from 1 to n
-https://www.geeksforgeeks.org/find-xor-of-numbers-from-the-range-l-r/ | Found XOR in range L to R
-https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/ | Found two non-repeating elements
-https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/ | Swapped numbers using XOR
-https://www.geeksforgeeks.org/copy-set-bits-in-a-range/ | Copied set bits in range
-https://leetcode.com/problems/divide-two-integers/ | Divided integers without division operator
-https://www.geeksforgeeks.org/count-total-set-bits-in-all-numbers-from-1-to-n/ | Counted set bits from 1 to n
-https://www.geeksforgeeks.org/power-set/ | Generated power set using backtracking
-https://www.geeksforgeeks.org/stack-data-structure-introduction-program/ | Learned stack LIFO operations
-https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/ | Learned queue FIFO operations
-https://www.geeksforgeeks.org/stack-data-structure-introduction-program/ | Implemented stack using array
-https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/ | Implemented queue using array
-https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/ | Implemented stack using linked list
-https://www.geeksforgeeks.org/implementation-queue-using-linked-list/ | Implemented queue using linked list
-https://www.geeksforgeeks.org/implement-stack-using-queue/ | Implemented stack using two queues
-https://www.geeksforgeeks.org/queue-using-stacks/ | Implemented queue using two stacks
-https://leetcode.com/problems/valid-parentheses/ | Validated parentheses using stack
-https://www.geeksforgeeks.org/next-greater-element/ | Found next greater element using stack
-https://www.geeksforgeeks.org/previous-greater-element/ | Found previous greater element
-https://www.geeksforgeeks.org/next-smaller-element/ | Found next smaller element
-https://www.geeksforgeeks.org/previous-smaller-element/ | Found previous smaller element
-https://leetcode.com/problems/largest-rectangle-in-histogram/ | Largest rectangle in histogram using stack
-https://www.geeksforgeeks.org/the-stock-span-problem/ | Stock span problem with stack
-https://www.geeksforgeeks.org/find-the-maximum-of-minimums-for-every-window-size-in-a-given-array/ | Maximum of minimums for windows
-https://leetcode.com/problems/trapping-rain-water/ | Trapped rainwater using stack
-https://leetcode.com/problems/sum-of-subarray-minimums/ | Sum of subarray minimums
-https://leetcode.com/problems/sum-of-subarray-ranges/ | Sum of subarray ranges
-https://leetcode.com/problems/online-stock-span/ | Online stock span using monotonic stack
-https://www.geeksforgeeks.org/maximize-the-minimum-value-in-a-grid/ | Maximized minimum value in grid
-https://leetcode.com/problems/remove-k-digits/ | Removed k digits for smallest number
-https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/ | Smallest distinct subsequence
-https://leetcode.com/problems/maximum-frequency-stack/ | Max frequency stack with maps
-https://leetcode.com/problems/lru-cache/ | Implemented LRU cache design
-https://leetcode.com/problems/lfu-cache/ | Implemented LFU cache design
-https://leetcode.com/problems/min-stack/ | Min stack with O(1) getMin
-https://leetcode.com/problems/rotting-oranges/ | Rotting oranges using BFS queue
-https://leetcode.com/problems/sliding-window-maximum/ | Sliding window max using deque
-https://leetcode.com/problems/asteroid-collision/ | Asteroid collision using stack
-https://leetcode.com/problems/design-twitter/ | Designed Twitter with heaps
-https://leetcode.com/problems/design-browser-history/ | Browser history using stack
-https://www.geeksforgeeks.org/binary-heap/ | Learned binary heap structure
-https://www.geeksforgeeks.org/binary-heap/ | Implemented min heap operations
-https://www.geeksforgeeks.org/binary-heap/ | Implemented max heap operations
-https://www.geeksforgeeks.org/convert-bst-min-heap/ | Converted array to binary heap
-https://www.geeksforgeeks.org/building-heap-from-array/ | Implemented heapify algorithm
-https://leetcode.com/problems/kth-largest-element-in-an-array/ | Found kth largest using heap
-https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/ | Returned k largest elements
-https://www.geeksforgeeks.org/nearly-sorted-algorithm/ | Sorted k-sorted array using heap
-https://www.geeksforgeeks.org/merge-k-sorted-arrays/ | Merged k sorted arrays with heap
-https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/ | Found median of running stream
-https://leetcode.com/problems/kth-largest-element-in-a-stream/ | Kth largest in stream using heap
-https://leetcode.com/problems/task-scheduler/ | Task scheduler with cooldown
-https://leetcode.com/problems/find-median-from-data-stream/ | Median from data stream using two heaps
-https://www.interviewbit.com/problems/maximum-sum-combinations/ | Maximum sum combinations
-https://leetcode.com/problems/find-k-closest-elements/ | Found k closest elements
-https://leetcode.com/problems/reorganize-string/ | Reorganized string with heap
-https://leetcode.com/problems/maximum-performance-of-a-team/ | Maximum team performance
-https://leetcode.com/problems/ipo/ | IPO maximize capital problem
-https://leetcode.com/problems/minimum-cost-to-hire-k-workers/ | Minimum cost to hire workers
-https://leetcode.com/problems/sliding-window-median/ | Sliding window median
-https://www.geeksforgeeks.org/find-maximum-meetings-in-one-room/ | N meetings in one room greedy
-https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/ | Minimum platforms for railway
-https://www.geeksforgeeks.org/job-sequencing-problem/ | Job sequencing for max profit
-https://www.geeksforgeeks.org/fractional-knapsack-problem/ | Fractional knapsack greedy approach
-https://www.geeksforgeeks.org/greedy-algorithm-to-find-minimum-number-of-coins/ | Minimum coins greedy solution
-https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/ | Activity selection greedy
-https://leetcode.com/problems/jump-game/ | Jump game greedy approach
-https://leetcode.com/problems/jump-game-ii/ | Jump game II minimum jumps
-https://leetcode.com/problems/jump-game-ii/ | Another jump game variant
-https://leetcode.com/problems/candy/ | Candy distribution greedy
-https://leetcode.com/problems/gas-station/ | Gas station circular tour
-https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/ | Minimum coins for change
-https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/ | Valid parenthesis checker
-https://leetcode.com/problems/insert-interval/ | Inserted interval and merged
-https://leetcode.com/problems/merge-intervals/ | Merged overlapping intervals
-https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/ | Calculated fibonacci using DP
-https://www.geeksforgeeks.org/count-ways-reach-nth-stair/ | Counted ways to reach nth stair
-https://www.codingninjas.com/codestudio/problems/frog-jump_3621012 | Frog jump minimum cost DP
-https://www.codingninjas.com/codestudio/problems/minimal-cost_8180930 | Frog jump with k distances
-https://leetcode.com/problems/house-robber/ | House robber max sum non-adjacent
-https://leetcode.com/problems/house-robber-ii/ | House robber II circular array
-https://www.codingninjas.com/codestudio/problems/ninja-s-training_3621003 | Ninja's training 2D DP problem
+https://www.geeksforgeeks.org/programs-printing-pattern-nested-loops/ | Pattern printing using nested loops - learned how outer loop controls rows and inner loop controls columns, practiced pyramid and diamond patterns
+https://www.geeksforgeeks.org/cpp-data-types/ | Deep dive into C++ data types - understood int (4 bytes), char (1 byte), float/double precision, and when to use each for memory optimization
+https://www.geeksforgeeks.org/decision-making-c-cpp/ | Mastered if-else decision making - implemented multiple conditions, understood else-if chains, practiced with grade calculator and leap year problems
+https://www.geeksforgeeks.org/switch-statement-cc/ | Switch-case statements for cleaner code - used for menu-driven programs, learned about break statements and fall-through behavior with default case
+https://www.geeksforgeeks.org/for-loop-in-cpp/ | For loops for fixed iterations - practiced from initialization to condition checking, used for array traversals and counting problems
+https://www.geeksforgeeks.org/cpp-while-loop/ | While loops for dynamic conditions - implemented input validation, used for problems where iteration count unknown beforehand like digit counting
+https://www.geeksforgeeks.org/functions-in-c/ | Functions for code reusability - created functions with parameters and return values, understood pass by value vs reference, made my code modular
+https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/ | Time complexity analysis with Big O - learned O(1), O(n), O(n²), O(log n) complexities, analyzed nested loops and recursive calls for optimization
+https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/ | Space complexity fundamentals - understood auxiliary space vs total space, analyzed recursion stack space and extra data structure usage
+https://www.geeksforgeeks.org/programs-printing-pattern-nested-loops/ | Advanced pattern problems - solved complex star patterns, number pyramids, and character patterns to strengthen loop logic and visualization
+https://www.geeksforgeeks.org/recursion-in-cpp/ | Recursion basics with base cases - understood call stack, practiced factorial, fibonacci, and simple recursive problems with proper termination
+https://www.geeksforgeeks.org/hashing-data-structure/ | Hashing for constant time lookups - used unordered_map for frequency counting, understood collision handling and when to use hashing vs arrays
+https://www.geeksforgeeks.org/selection-sort/ | Selection sort implementation - found minimum element and swapped, understood O(n²) time complexity and why it's inefficient for large arrays
+https://www.geeksforgeeks.org/bubble-sort/ | Bubble sort with optimization - implemented adjacent swaps, added flag to detect sorted array early, practiced stable sorting algorithm
+https://www.geeksforgeeks.org/insertion-sort/ | Insertion sort for nearly sorted - understood why it's O(n) for sorted arrays, used for small datasets and as part of hybrid sorting
+https://www.geeksforgeeks.org/merge-sort/ | Merge sort divide and conquer - split array recursively, merged sorted halves, achieved O(n log n) with extra space for stability
+https://www.geeksforgeeks.org/quick-sort/ | Quick sort with pivot selection - implemented partition logic, understood in-place sorting, practiced choosing good pivot to avoid O(n²)
+https://www.geeksforgeeks.org/recursive-bubble-sort/ | Recursive bubble sort version - converted iterative bubble sort to recursion for practice, understood how recursion replaces outer loop
+https://www.geeksforgeeks.org/recursive-insertion-sort/ | Recursive insertion sort - made insertion sort recursive, practiced thinking in terms of smaller subproblems rather than loops
+https://www.geeksforgeeks.org/program-find-largest-element-array/ | Finding largest element in O(n) - simple traversal keeping track of max, understood single pass solution without sorting entire array
+https://www.geeksforgeeks.org/find-second-largest-element-array/ | Second largest without sorting - tracked both largest and second largest in single pass, handled edge cases like duplicates efficiently
+https://www.geeksforgeeks.org/program-check-array-sorted-not-iterative-recursive/ | Check sorted array in one pass - compared adjacent elements, understood early return optimization when finding unsorted pair
+https://www.geeksforgeeks.org/remove-duplicates-sorted-array/ | Remove duplicates in-place - used two pointers technique on sorted array, maintained unique elements at start without extra space
+https://www.geeksforgeeks.org/rotate-array-by-one/ | Rotate array left by one - stored first element, shifted all left, placed first at end, understood O(n) time O(1) space solution
+https://www.geeksforgeeks.org/array-rotation/ | Rotate array by D places - used reversal algorithm: reverse first D, reverse remaining, reverse whole array for O(n) time O(1) space
+https://www.geeksforgeeks.org/move-zeroes-end-array/ | Move zeros to end efficiently - two pointer approach maintaining non-zero elements order, single pass without extra array allocation
+https://www.geeksforgeeks.org/linear-search/ | Linear search basics - sequential traversal to find element, understood O(n) worst case when element at end or not present
+https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/ | Union of sorted arrays - used two pointers to merge unique elements, maintained sorted order while avoiding duplicates efficiently
+https://www.geeksforgeeks.org/find-the-missing-number/ | Missing number using math - calculated expected sum formula n(n+1)/2 minus actual sum, understood XOR approach as alternative
+https://leetcode.com/problems/max-consecutive-ones/ | Max consecutive ones count - tracked current streak and maximum streak, reset counter on zero, simple sliding window concept
+https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/ | Find single element with XOR - used property that a^a=0 and a^0=a, all pairs cancel out leaving only the single element
+https://www.geeksforgeeks.org/longest-subarray-sum-k/ | Longest subarray sum K positives - used sliding window with two pointers, expanded window when sum less than K, contracted when greater
+https://www.geeksforgeeks.org/longest-sub-array-sum-k/ | Longest subarray for positives and negatives - used prefix sum with hashmap to track first occurrence of each sum for O(n) solution
+https://leetcode.com/problems/two-sum/ | Two sum using hashmap - stored complement in map while traversing, achieved O(n) time instead of O(n²) brute force approach
+https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/ | Sort 0s 1s 2s in one pass - Dutch National Flag algorithm with three pointers for low, mid, high regions without extra space
+https://www.geeksforgeeks.org/majority-element/ | Majority element Moore's voting - maintained candidate and count, element appearing >n/2 times always wins, verified candidate at end
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/ | Kadane's algorithm for max subarray - tracked current sum and max sum, reset current when negative, classic dynamic programming approach
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ | Best time to buy sell stock - kept track of minimum price seen so far, calculated profit at each day for maximum difference
+https://leetcode.com/problems/rearrange-array-elements-by-sign/ | Rearrange by sign maintaining order - used two pointers for positive and negative indices, filled alternate positions preserving sequence
+https://leetcode.com/problems/next-permutation/ | Next permutation in-place - found rightmost ascending pair, found next larger element, swapped and reversed suffix for next order
+https://www.geeksforgeeks.org/leaders-in-an-array/ | Leaders in array - element is leader if greater than all right elements, traversed from right keeping track of max seen
+https://leetcode.com/problems/longest-consecutive-sequence/ | Longest consecutive sequence - used hashset for O(1) lookups, started sequence only from numbers that don't have n-1 to avoid duplicates
+https://leetcode.com/problems/set-matrix-zeroes/ | Set matrix zeroes efficiently - used first row and column as markers instead of extra space, handled edge cases for first row/column separately
+https://leetcode.com/problems/rotate-image/ | Rotate matrix 90 degrees - transposed matrix then reversed each row, achieved clockwise rotation with two simple operations in-place
+https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/ | Spiral matrix traversal - maintained four boundaries (top, bottom, left, right), printed layer by layer moving inward till boundaries meet
+https://www.geeksforgeeks.org/count-subarrays-with-given-sum/ | Count subarrays with sum K - used prefix sum technique with hashmap storing frequencies, checked if (currentSum - K) exists
+https://www.geeksforgeeks.org/count-number-of-subsets-with-given-xor-value/ | Count subarrays with XOR K - similar to sum approach but with XOR property, used prefix XOR and hashmap for O(n) solution
+https://leetcode.com/problems/pascals-triangle/ | Pascal's triangle generation - each element is sum of two elements above it, first and last elements are 1, row n has n elements
+https://leetcode.com/problems/majority-element-ii/ | Majority element >n/3 times - at most 2 elements can appear >n/3 times, used modified Boyer-Moore with two candidates
+https://leetcode.com/problems/3sum/ | 3Sum problem with sorting - fixed one element, used two pointers on remaining sorted array, skipped duplicates for unique triplets
+https://leetcode.com/problems/4sum/ | 4Sum extending 3Sum - fixed two elements, applied two pointer on rest, handled duplicates and avoided integer overflow carefully
+https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/ | Largest subarray with zero sum - used prefix sum in hashmap, if same sum appears twice then subarray between them has sum zero
+https://www.geeksforgeeks.org/counting-inversions/ | Count inversions with merge sort - pair (i,j) where i<j but arr[i]>arr[j], counted while merging sorted halves for O(n log n)
+https://leetcode.com/problems/reverse-pairs/ | Reverse pairs problem - counted pairs where i<j and arr[i]>2*arr[j], modified merge sort to count before merging
+https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/ | Find missing and repeating - used equations sum and sum of squares, alternatively XOR all numbers with 1 to n to find difference
+https://www.geeksforgeeks.org/count-reverse-pairs/ | Count reverse pairs efficiently - similar to merge sort approach, counted valid pairs in right subarray before merging
+https://leetcode.com/problems/merge-intervals/ | Merge overlapping intervals - sorted by start time, merged intervals where current start <= previous end, maintained merged list
+https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/ | Merge sorted arrays no extra space - used gap method derived from shell sort, started with gap=ceil((n+m)/2) and reduced
+https://www.geeksforgeeks.org/binary-search/ | Binary search on sorted array - compared middle element, eliminated half search space each time for O(log n) complexity
+https://www.geeksforgeeks.org/implementing-lower_bound-and-upper_bound-in-cpp/ | Lower bound implementation - found first element >= target using binary search, when arr[mid]<target search right else search left
+https://www.geeksforgeeks.org/implementing-upper_bound-in-c/ | Upper bound implementation - found first element > target, modified binary search to always search right when arr[mid]<=target
+https://leetcode.com/problems/search-insert-position/ | Search insert position - found index where target should be inserted to maintain sorted order, essentially lower bound problem
+https://leetcode.com/problems/find-peak-element/ | Find peak element in O(log n) - element greater than neighbors, used binary search moving toward larger neighbor for guaranteed peak
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ | Minimum in rotated sorted array - compared with last element to decide which half is sorted, searched in unsorted half
+https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/ | Count rotations in rotated array - found index of minimum element which equals number of rotations performed on original array
+https://leetcode.com/problems/single-element-in-a-sorted-array/ | Single element in sorted array - all others appear twice, used binary search on even indices checking if pair broken to decide direction
+https://www.geeksforgeeks.org/n-th-root-number/ | Nth root using binary search - searched in range 1 to m, checked if mid^n equals m within precision, adjusted range accordingly
+https://www.geeksforgeeks.org/median-of-a-row-wise-sorted-matrix/ | Median in row-wise sorted matrix - used binary search on value range, counted elements ≤ mid to find median position
+https://www.geeksforgeeks.org/median-in-row-wise-sorted-matrix/ | Matrix median alternative approach - merged k sorted rows using min heap, found middle element without flattening entire matrix
+https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/ | Smallest divisor threshold - binary searched on possible divisors, calculated sum of ceil(arr[i]/mid) to check if ≤ threshold
+https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/ | Ship packages in D days - binary searched on capacity, checked if can ship all within D days with greedy allocation
+https://leetcode.com/problems/koko-eating-bananas/ | Koko eating bananas - binary searched on eating speed, simulated eating process to check if can finish within given hours
+https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/ | Minimum days for bouquets - binary searched on days, checked if can make m bouquets of k consecutive flowers each at that day
+https://leetcode.com/problems/split-array-largest-sum/ | Split array minimize largest sum - binary searched on possible max sum, used greedy to check if can split into k subarrays
+https://www.geeksforgeeks.org/allocate-minimum-number-pages/ | Book allocation minimize max pages - similar to split array, assigned books to students such that max pages per student minimized
+https://www.spoj.com/problems/AGGRCOW/ | Aggressive cows maximize min distance - binary searched on minimum distance, greedily placed cows and checked if can place all
+https://www.geeksforgeeks.org/painters-partition-problem/ | Painter's partition problem - minimize time when k painters work on boards, binary searched on time with greedy assignment
+https://leetcode.com/problems/split-array-largest-sum/ | Split array largest sum variant - another form of partition problem using binary search on answer approach
+https://leetcode.com/problems/minimize-max-distance-to-gas-station/ | Minimize max distance to gas stations - binary searched on max distance, checked if can place K stations to achieve it
+https://leetcode.com/problems/search-a-2d-matrix/ | Search in 2D matrix row-column sorted - treated as 1D sorted array using index conversion, or started from top-right corner
+https://leetcode.com/problems/find-a-peak-element-ii/ | Peak element in 2D matrix - extended 1D approach, found max in middle column, moved toward row with larger neighbor
+https://www.geeksforgeeks.org/median-in-row-wise-sorted-matrix/ | Median in 2D matrix - binary searched on values, counted elements smaller in each row, found element at position (n*m+1)/2
+https://leetcode.com/problems/row-with-maximum-ones/ | Row with maximum ones - used binary search to find first 1 in each row, kept track of row with earliest first 1 index
+https://www.geeksforgeeks.org/check-if-strings-are-rotations-of-each-other/ | Check string rotations - concatenated s1 with itself, checked if s2 is substring using KMP or simple string search
+https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/ | Check anagrams - compared character frequency using hashmap or sorted strings, both O(n) time solution approach
+https://www.geeksforgeeks.org/find-first-occurrence-of-a-pattern-in-a-text/ | First pattern occurrence - implemented naive pattern matching or KMP, found starting index of pattern in text or -1
+https://www.geeksforgeeks.org/count-number-of-vowels-consonants-spaces-in-a-string/ | Count vowels consonants spaces - traversed string checking each character type, maintained separate counters for each category
+https://leetcode.com/problems/longest-common-prefix/ | Longest common prefix - compared characters vertically across all strings, stopped at first mismatch or end of shortest string
+https://leetcode.com/problems/isomorphic-strings/ | Isomorphic strings - maintained two maps for bidirectional character mapping, ensured one-to-one correspondence between characters
+https://www.geeksforgeeks.org/caesar-cipher/ | Caesar cipher implementation - shifted each character by k positions in alphabet, handled wrap-around and case preservation
+https://www.geeksforgeeks.org/check-if-the-given-string-is-shuffled-substring-of-another-string/ | Valid shuffle of strings - checked if str1 and str2 can interleave to form str3 maintaining relative order of characters
+https://leetcode.com/problems/reverse-words-in-a-string/ | Reverse words in string - split by spaces handling multiple spaces, reversed array of words, joined back with single space
+https://leetcode.com/problems/longest-palindromic-substring/ | Longest palindromic substring - expanded around each center (odd and even length), kept track of longest palindrome found
+https://leetcode.com/problems/roman-to-integer/ | Roman to integer conversion - processed right to left, subtracted if smaller value before larger (like IV=4), else added
+https://leetcode.com/problems/string-to-integer-atoi/ | String to integer atoi - handled whitespace, signs, overflow, invalid characters following strict rules as per problem
+https://leetcode.com/problems/longest-common-prefix/ | Longest common prefix practice - another approach using divide and conquer or horizontal scanning method for variety
+https://leetcode.com/problems/repeated-string-match/ | Repeated string match - found minimum times to repeat A so B becomes substring, checked up to (len(B)/len(A))+2 repetitions
+https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/ | Z algorithm linear pattern matching - computed Z array in O(n+m), each Z[i] shows longest substring starting at i matching prefix
+https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/ | KMP algorithm pattern search - built LPS (Longest Prefix Suffix) array, skipped characters intelligently without re-comparing matched part
+https://leetcode.com/problems/compare-version-numbers/ | Compare version numbers - split by dots, compared each numeric segment, handled different lengths by treating missing as 0
+https://leetcode.com/problems/count-and-say/ | Count and say sequence - generated nth term where each term describes previous term's digit groupings like 1211 describes 111221
+https://leetcode.com/problems/valid-parentheses/ | Valid parentheses using stack - pushed opening brackets, popped and matched with closing, empty stack at end means valid
+https://leetcode.com/problems/valid-palindrome-ii/ | Valid palindrome with one deletion - tried deleting character at mismatch position from both ends, checked if resulting string palindrome
+https://www.geeksforgeeks.org/minimum-characters-added-front-make-string-palindrome/ | Min characters to make palindrome - found longest palindromic prefix using KMP, needed to add remaining characters to front
+https://leetcode.com/problems/palindromic-substrings/ | Count palindromic substrings - expanded around each center counting all palindromes, handled both odd and even length palindromes
+https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/ | Rabin Karp rolling hash - used polynomial rolling hash for pattern matching, recalculated hash in O(1) by sliding window
+https://leetcode.com/problems/valid-number/ | Valid number state machine - handled integer, decimal, exponent, signs using finite state machine or careful condition checking
+https://leetcode.com/problems/integer-to-english-words/ | Integer to English words - divided into groups of three, converted each group using helper, handled edge cases like zero
+https://leetcode.com/problems/implement-strstr/ | Implement strStr substring search - used two pointer brute force O(mn) or KMP O(m+n), returned first occurrence index
+https://leetcode.com/problems/longest-palindromic-substring/ | Longest palindrome expand center - for each position expanded outward while characters match, tracked maximum length palindrome found
+https://www.geeksforgeeks.org/linked-list-set-1-introduction/ | Linked list introduction - understood node structure with data and next pointer, basic operations like creation and traversal
+https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/ | Insert at beginning LL - created new node, pointed its next to head, updated head to new node for O(1) insertion
+https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/ | Insert at end of LL - traversed to last node, made its next point to new node whose next is NULL for O(n) operation
+https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/ | Delete from beginning LL - moved head to next node, freed old head for O(1) deletion maintaining list structure
+https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/ | Delete from end of LL - traversed to second last node, made its next NULL, freed last node for O(n) time complexity
+https://www.geeksforgeeks.org/search-an-element-in-a-linked-list-iterative-and-recursive/ | Search in linked list - traversed list comparing data with target, returned true if found else false after reaching NULL
+https://www.geeksforgeeks.org/doubly-linked-list/ | Doubly linked list basics - understood node with prev and next pointers, enables bidirectional traversal and easier deletion
+https://www.geeksforgeeks.org/doubly-linked-list/ | Insert in DLL - updated both prev and next pointers of surrounding nodes when inserting at beginning, end or middle
+https://www.geeksforgeeks.org/doubly-linked-list/ | Delete from DLL - adjusted prev and next pointers of adjacent nodes, freed current node for cleaner deletion than singly LL
+https://leetcode.com/problems/middle-of-the-linked-list/ | Middle of linked list - used slow and fast pointer technique, when fast reaches end slow is at middle in one pass
+https://leetcode.com/problems/reverse-linked-list/ | Reverse linked list iteratively - maintained three pointers prev, curr, next, reversed links by making curr->next point to prev
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/ | Remove nth from end - used two pointers with n gap between them, when second reaches end first is at node before target
+https://leetcode.com/problems/add-two-numbers/ | Add two numbers as LL - simulated addition with carry, created new nodes for sum digits, handled different length lists
+https://leetcode.com/problems/delete-node-in-a-linked-list/ | Delete given node in LL - can't access previous node so copied next node's data to current and deleted next node
+https://leetcode.com/problems/intersection-of-two-linked-lists/ | Intersection of two linked lists - calculated length difference, moved longer list's pointer ahead, then moved both till they meet
+https://leetcode.com/problems/linked-list-cycle/ | Detect cycle in LL - used Floyd's cycle detection with slow and fast pointers, cycle exists if they meet inside list
+https://leetcode.com/problems/linked-list-cycle-ii/ | Starting point of cycle - after detecting cycle, moved one pointer to head, moved both one step at a time till they meet at start
+https://www.geeksforgeeks.org/flattening-a-linked-list/ | Flatten linked list - merged sorted linked lists level by level using merge operation, resulted in single sorted list
+https://leetcode.com/problems/rotate-list/ | Rotate linked list K places - found length, made it circular, broke link at (len-k)th node to get rotated list
+https://leetcode.com/problems/copy-list-with-random-pointer/ | Copy list with random pointer - used hashmap to store old to new node mapping in first pass, updated next and random in second
+https://leetcode.com/problems/palindrome-linked-list/ | Palindrome linked list - found middle, reversed second half, compared both halves for matching values throughout
+https://leetcode.com/problems/reverse-nodes-in-k-group/ | Reverse nodes in K-group - reversed k nodes at a time using iterative reversal, kept remaining part connected carefully
+https://www.geeksforgeeks.org/merge-sort-for-linked-list/ | Merge sort for linked list - split using slow-fast pointers, recursively sorted halves, merged sorted halves for O(n log n)
+https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/ | Flatten multilevel DLL - used DFS or iterative approach with stack to connect child lists into main list
+https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/ | Remove duplicate nodes in sorted LL II - kept nodes that appear exactly once, used dummy node to handle head deletion easily
+https://www.geeksforgeeks.org/delete-occurrences-given-key-doubly-linked-list/ | Delete all occurrences in DLL - traversed list, freed nodes matching key, adjusted prev and next pointers of neighbors
+https://leetcode.com/problems/copy-list-with-random-pointer/ | Copy list with random pointer II - used constant space by interweaving new nodes between original nodes for mapping
+https://leetcode.com/problems/lru-cache/ | LRU cache implementation - combined doubly linked list for recency and hashmap for O(1) access, moved accessed nodes to front
+https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/ | Recursion fundamentals - understood base case, recursive case, call stack, return value propagation and termination conditions
+https://www.geeksforgeeks.org/recursively-print-n-different-ways-print-n-times/ | Print name N times recursively - simple recursion with counter decrementing, printed at each level till base case reached
+https://www.geeksforgeeks.org/factorial/ | Factorial using recursion - base case n=0 returns 1, recursive case returns n * factorial(n-1) with stack unwinding
+https://www.geeksforgeeks.org/recursive-function-to-do-substring-search/ | Print numbers in reverse - recursion call first then print, call stack automatically reverses order when unwinding
+https://www.geeksforgeeks.org/recursive-program-to-print-numbers-from-1-to-n/ | Print 1 to N recursively - printed before recursive call for ascending order, understood difference from printing after call
+https://www.geeksforgeeks.org/recursive-program-to-print-numbers-from-n-to-1/ | Print N to 1 recursively - printed current value then made recursive call with n-1 till base case n=0 reached
+https://www.geeksforgeeks.org/sum-of-natural-numbers-using-recursion/ | Sum of N numbers recursively - returned n + sum(n-1) with base case 0 returning 0, understood accumulation during stack unwinding
+https://www.geeksforgeeks.org/generate-binary-strings-without-consecutive-1s/ | Generate binary strings - used backtracking to build string character by character, avoided consecutive 1s by checking last character
+https://leetcode.com/problems/generate-parentheses/ | Generate balanced parentheses - tracked open and close bracket counts, added close only when close count < open count
+https://www.geeksforgeeks.org/generating-all-possible-subsequences-using-recursion/ | Generate all subsequences - used take/not-take approach at each index, built subsequences recursively with backtracking
+https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x-using-recursion/ | Count subsequences with sum K - added 1 when sum equals K at base case, explored both include and exclude paths
+https://www.geeksforgeeks.org/subset-sum-problem-dp-25/ | Check if subsequence sum K exists - returned true immediately if found, pruned branches when sum exceeded K for optimization
+https://leetcode.com/problems/combination-sum/ | Combination sum with repetition - explored same element multiple times, moved to next only after fully exploring current element
+https://leetcode.com/problems/combination-sum-ii/ | Combination sum without repetition - sorted array to handle duplicates, skipped same elements at same recursion level for unique combinations
+https://leetcode.com/problems/n-queens/ | N Queens backtracking - placed queens row by row, checked column and diagonals for attacks, backtracked if no valid placement
+https://leetcode.com/problems/sudoku-solver/ | Sudoku solver - tried digits 1-9 in empty cells, checked row, column, 3x3 box validity, backtracked on conflict
+https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/ | M-coloring graph - assigned colors to vertices ensuring adjacent vertices have different colors, backtracked if impossible
+https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/ | Rat in maze problem - moved in four directions from start, marked visited cells, backtracked to find all paths to destination
+https://leetcode.com/problems/word-break/ | Word break DP/recursion - checked if string can be segmented into dictionary words, used memoization to avoid recomputation
+https://leetcode.com/problems/palindrome-partitioning/ | Palindrome partitioning - partitioned string where each partition is palindrome, used backtracking to generate all partitions
+https://leetcode.com/problems/expression-add-operators/ | Expression add operators - placed +, -, * between digits to form target, handled operator precedence and number formation carefully
+https://www.geeksforgeeks.org/bit-manipulation/ | Bit manipulation introduction - understood AND, OR, XOR, left shift, right shift operations and their properties for optimization
+https://www.geeksforgeeks.org/check-whether-k-th-bit-set-not/ | Check if ith bit set - used AND operation with (1<<i), if result non-zero then ith bit is 1 else 0
+https://www.geeksforgeeks.org/check-if-a-number-is-odd-or-even-using-bitwise-operators/ | Check odd even using bits - checked last bit using (n&1), if 1 then odd else even for O(1) check
+https://www.geeksforgeeks.org/count-set-bits-in-an-integer/ | Count set bits - used Brian Kernighan's algorithm n&(n-1) removes rightmost set bit, counted till n becomes 0
+https://www.geeksforgeeks.org/program-to-find-whether-a-no-is-power-of-two/ | Check power of 2 - power of 2 has exactly one set bit, checked using (n&(n-1))==0 for O(1) solution
+https://www.geeksforgeeks.org/count-number-flips-make-binary-string-alternate/ | Count bits to flip A to B - found XOR of A and B, counted set bits in XOR result as those positions differ
+https://www.geeksforgeeks.org/position-of-rightmost-set-bit/ | Position of rightmost set bit - used n&(-n) to isolate rightmost set bit, took log2 to find position
+https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/ | Find odd occurring element - XORed all elements, pairs cancel out leaving element occurring odd times due to XOR properties
+https://www.geeksforgeeks.org/power-set/ | Power set using bits - used n bit representation for subset inclusion, iterated through 0 to 2^n-1 generating all subsets
+https://www.geeksforgeeks.org/calculate-xor-1-n/ | XOR from 1 to N - observed pattern repeats every 4 numbers, used pattern to calculate in O(1) instead of O(n) loop
+https://www.geeksforgeeks.org/find-xor-of-numbers-from-the-range-l-r/ | XOR in range L to R - used property XOR(L,R) = XOR(1,R) ^ XOR(1,L-1) with pattern-based calculation
+https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/ | Find two non-repeating - XORed all to get XOR of two unique numbers, used rightmost set bit to partition and find both
+https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/ | Swap using XOR - performed a^=b, b^=a, a^=b sequence to swap without temporary variable using XOR properties
+https://www.geeksforgeeks.org/copy-set-bits-in-a-range/ | Copy set bits in range - used mask to extract bits from range, shifted and ORed with destination to copy bits
+https://leetcode.com/problems/divide-two-integers/ | Divide without division - used bit manipulation and exponential search, subtracted multiples of divisor using left shifts
+https://www.geeksforgeeks.org/count-total-set-bits-in-all-numbers-from-1-to-n/ | Count set bits 1 to N - used dynamic programming, bit pattern observation, or Brian Kernighan for each number approach
+https://www.geeksforgeeks.org/power-set/ | Power set using backtracking - used include/exclude approach for each element, built subsets recursively exploring all combinations
+https://www.geeksforgeeks.org/stack-data-structure-introduction-program/ | Stack LIFO introduction - understood Last In First Out principle, operations push, pop, top, isEmpty with O(1) time
+https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/ | Queue FIFO introduction - understood First In First Out principle, operations enqueue, dequeue, front, rear with circular array
+https://www.geeksforgeeks.org/stack-data-structure-introduction-program/ | Stack using array - implemented with array and top pointer, pushed by incrementing top, popped by decrementing top
+https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/ | Queue using array - used front and rear pointers with circular array to avoid shifting elements, handled full and empty conditions
+https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/ | Stack using linked list - pushed at head for O(1), popped from head, dynamic size without overflow condition unlike array
+https://www.geeksforgeeks.org/implementation-queue-using-linked-list/ | Queue using linked list - enqueued at tail, dequeued from head for O(1) operations, maintained both head and tail pointers
+https://www.geeksforgeeks.org/implement-stack-using-queue/ | Stack using two queues - maintained one primary queue, transferred all but last to second queue for pop operation
+https://www.geeksforgeeks.org/queue-using-stacks/ | Queue using two stacks - pushed to stack1, popped by transferring all to stack2 if empty, amortized O(1) for operations
+https://leetcode.com/problems/valid-parentheses/ | Valid parentheses - pushed opening brackets to stack, matched with closing brackets by popping, checked stack empty at end
+https://www.geeksforgeeks.org/next-greater-element/ | Next greater element - used monotonic decreasing stack, popped smaller elements when found greater, stored mapping in result
+https://www.geeksforgeeks.org/previous-greater-element/ | Previous greater element - similar to next greater but traversed from left, maintained decreasing stack for previous larger element
+https://www.geeksforgeeks.org/next-smaller-element/ | Next smaller element - used monotonic increasing stack, popped when found smaller element, useful for histogram problems
+https://www.geeksforgeeks.org/previous-smaller-element/ | Previous smaller element - maintained increasing stack while traversing left to right, found previous smaller in O(n) time
+https://leetcode.com/problems/largest-rectangle-in-histogram/ | Largest rectangle histogram - used next and previous smaller elements, area = height * (next_smaller - prev_smaller - 1)
+https://www.geeksforgeeks.org/the-stock-span-problem/ | Stock span problem - counted consecutive days with price <= current, used monotonic stack storing indices for O(n) solution
+https://www.geeksforgeeks.org/find-the-maximum-of-minimums-for-every-window-size-in-a-given-array/ | Max of mins for windows - computed next and previous smaller for each element, calculated contribution to each window size
+https://leetcode.com/problems/trapping-rain-water/ | Trapping rain water - used stack storing indices, calculated water trapped between bars using height difference and width
+https://leetcode.com/problems/sum-of-subarray-minimums/ | Sum of subarray minimums - for each element found how many subarrays it's minimum of, used next and previous smaller approach
+https://leetcode.com/problems/sum-of-subarray-ranges/ | Sum of subarray ranges - combined max and min contribution, calculated sum of (max-min) for all subarrays using monotonic stacks
+https://leetcode.com/problems/online-stock-span/ | Online stock span - processed stock prices in stream, returned span using monotonic decreasing stack storing price-span pairs
+https://www.geeksforgeeks.org/maximize-the-minimum-value-in-a-grid/ | Maximize minimum value in grid - used greedy approach with monotonic stack or priority queue to process cells strategically
+https://leetcode.com/problems/remove-k-digits/ | Remove K digits smallest number - built result using monotonic increasing stack, removed larger digits when possible to minimize result
+https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/ | Smallest distinct subsequence - built lexicographically smallest subsequence using stack, considered last occurrence of each character
+https://leetcode.com/problems/maximum-frequency-stack/ | Maximum frequency stack - maintained frequency map and stacks for each frequency, popped from highest frequency stack
+https://leetcode.com/problems/lru-cache/ | LRU cache with stack - combined DLL for recency order and hashmap for O(1) access, evicted least recently used at capacity
+https://leetcode.com/problems/lfu-cache/ | LFU cache design - tracked frequency with min heap or frequency map, evicted least frequently used with LRU for ties
+https://leetcode.com/problems/min-stack/ | Min stack O(1) getMin - maintained auxiliary stack storing minimums parallel to main stack, updated both on push/pop
+https://leetcode.com/problems/rotting-oranges/ | Rotting oranges BFS - used multi-source BFS with queue, processed level by level counting time, marked fresh oranges rotten
+https://leetcode.com/problems/sliding-window-maximum/ | Sliding window maximum - used deque maintaining decreasing order, removed out of window indices, front always has maximum
+https://leetcode.com/problems/asteroid-collision/ | Asteroid collision - used stack to simulate collisions, positive asteroids pushed, negative asteroids checked for collisions
+https://leetcode.com/problems/design-twitter/ | Design Twitter - used hashmap for users, posts stored with timestamp, merge k sorted lists for feed using min heap
+https://leetcode.com/problems/design-browser-history/ | Design browser history - maintained two stacks for backward and forward navigation, visited cleared forward stack
+https://www.geeksforgeeks.org/binary-heap/ | Binary heap structure - complete binary tree property, parent at i/2, left child at 2i, right child at 2i+1 in array
+https://www.geeksforgeeks.org/binary-heap/ | Min heap implementation - parent smaller than children, used heapify up on insertion and heapify down on deletion of root
+https://www.geeksforgeeks.org/binary-heap/ | Max heap implementation - parent larger than children, opposite of min heap, used for priority queue and heap sort
+https://www.geeksforgeeks.org/convert-bst-min-heap/ | Array to heap conversion - used bottom-up heapify from n/2 to 0, achieved O(n) construction instead of O(n log n)
+https://www.geeksforgeeks.org/building-heap-from-array/ | Heapify algorithm - maintained heap property by comparing with children, swapping with largest/smallest child and recursing down
+https://leetcode.com/problems/kth-largest-element-in-an-array/ | Kth largest element - built min heap of size k, root contains kth largest after processing all elements in O(n log k)
+https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/ | K largest elements - maintained min heap of size k, returned all elements from heap after processing entire array
+https://www.geeksforgeeks.org/nearly-sorted-algorithm/ | Sort K-sorted array - each element at most k positions away, used min heap of size k+1 for O(n log k) sorting
+https://www.geeksforgeeks.org/merge-k-sorted-arrays/ | Merge K sorted arrays - used min heap with elements from each array, extracted min and added next element from same array
+https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/ | Median of running stream - maintained max heap for smaller half and min heap for larger half, balanced their sizes for median
+https://leetcode.com/problems/kth-largest-element-in-a-stream/ | Kth largest in stream - maintained min heap of size k, added new elements and removed smallest maintaining k largest elements
+https://leetcode.com/problems/task-scheduler/ | Task scheduler with cooldown - used max heap with frequency, processed most frequent first, added to waiting queue for cooldown
+https://leetcode.com/problems/find-median-from-data-stream/ | Median from data stream - inserted into appropriate heap keeping sizes balanced, median is top of larger heap or average of tops
+https://www.interviewbit.com/problems/maximum-sum-combinations/ | Maximum sum combinations - used max heap with pairs of indices, generated combinations in descending order of sum
+https://leetcode.com/problems/find-k-closest-elements/ | K closest elements - used max heap storing distances with values or binary search with two pointer to find k elements
+https://leetcode.com/problems/reorganize-string/ | Reorganize string no adjacent - used max heap by frequency, always picked most frequent character available avoiding adjacency
+https://leetcode.com/problems/maximum-performance-of-a-team/ | Maximum team performance - sorted by efficiency, used min heap for speed, calculated performance trying each as min efficiency
+https://leetcode.com/problems/ipo/ | IPO maximize capital - used max heap for profits and min heap for capitals, greedily selected projects with max profit when affordable
+https://leetcode.com/problems/minimum-cost-to-hire-k-workers/ | Minimum cost hire K workers - sorted by wage/quality ratio, used max heap for quality, calculated cost for each as minimum ratio worker
+https://leetcode.com/problems/sliding-window-median/ | Sliding window median - maintained two heaps for left and right halves, rebalanced and removed out of window elements for median
+https://www.geeksforgeeks.org/find-maximum-meetings-in-one-room/ | N meetings in one room - sorted by end time, greedily selected non-overlapping meetings counting maximum possible meetings
+https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/ | Minimum platforms required - sorted arrivals and departures separately, tracked concurrent trains, maximum concurrent gives platforms needed
+https://www.geeksforgeeks.org/job-sequencing-problem/ | Job sequencing problem - sorted jobs by profit, scheduled each in latest available slot before deadline for maximum profit
+https://www.geeksforgeeks.org/fractional-knapsack-problem/ | Fractional knapsack - sorted items by value/weight ratio, greedily picked highest ratio items filling knapsack for maximum value
+https://www.geeksforgeeks.org/greedy-algorithm-to-find-minimum-number-of-coins/ | Minimum coins greedy - started with largest denomination, took as many as possible, moved to smaller denominations greedily
+https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/ | Activity selection - sorted by finish time, selected activities that don't overlap, greedy choice of earliest ending activity
+https://leetcode.com/problems/jump-game/ | Jump game can reach - maintained maximum reachable index, updated at each position, checked if can reach last index
+https://leetcode.com/problems/jump-game-ii/ | Jump game II min jumps - used BFS or greedy tracking current reach and next reach, incremented jumps when current exhausted
+https://leetcode.com/problems/jump-game-ii/ | Minimum jumps variant - similar approach counting minimum steps, updated reach at each position greedily selecting maximum reach
+https://leetcode.com/problems/candy/ | Candy distribution - two pass approach, first increasing left to right, second right to left ensuring greater rating gets more candy
+https://leetcode.com/problems/gas-station/ | Gas station circular tour - tracked total gas and current gas, if current negative reset start, positive total guarantees solution
+https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/ | Minimum coins for change - greedy doesn't work for all denominations, used DP or for specific denominations like USD greedy works
+https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/ | Valid parenthesis checker - used stack to match pairs, ensured balanced nesting for different bracket types, empty stack means valid
+https://leetcode.com/problems/insert-interval/ | Insert interval and merge - found correct position for new interval, merged overlapping intervals before and after insertion
+https://leetcode.com/problems/merge-intervals/ | Merge intervals - sorted by start time, merged intervals where current start <= previous end, maintained non-overlapping list
+https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/ | Fibonacci using DP - stored previous results, computed using fib(n)=fib(n-1)+fib(n-2), avoided recomputation with memoization
+https://www.geeksforgeeks.org/count-ways-reach-nth-stair/ | Count ways to reach nth stair - similar to fibonacci, ways(n)=ways(n-1)+ways(n-2) for 1 or 2 steps, used DP for efficiency
+https://www.codingninjas.com/codestudio/problems/frog-jump_3621012 | Frog jump minimum cost - tried all reachable positions, memoized minimum cost to reach each stone, returned cost for last stone
+https://www.codingninjas.com/codestudio/problems/minimal-cost_8180930 | Frog jump with K distances - extended to k possible jumps, tried jumping to next k stones, memoized for optimization
+https://leetcode.com/problems/house-robber/ | House robber non-adjacent - dynamic programming where dp[i]=max(dp[i-1], dp[i-2]+arr[i]), chose rob or not rob pattern
+https://leetcode.com/problems/house-robber-ii/ | House robber II circular array - ran house robber twice, once excluding first and once excluding last, took maximum of both
+https://www.codingninjas.com/codestudio/problems/ninja-s-training_3621003 | Ninja's training 2D DP - tracked maximum points for each activity on each day ensuring different activity than previous day
