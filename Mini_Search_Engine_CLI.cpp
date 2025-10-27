@@ -1,3 +1,18 @@
+/*
+ * Mini Search Engine for DSA Problems
+ * Author: Pritham Nandavaram
+ * 
+ * Personal project to search through my DSA problem collection
+ * Instead of manually scrolling through 455+ problems in text files,
+ * I built this search engine using STL containers and regex
+ * 
+ * Features:
+ * - Multi-word search with relevance ranking
+ * - Case-insensitive pattern matching
+ * - Efficient storage using maps and vectors
+ * - Command-line interface for web API integration
+ */
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -11,23 +26,27 @@
 
 using namespace std;
 
-// Map: line number -> problem text
-map<int,string> problemLineMap;
-// Map: line number -> solution URL or metadata
-map<int,string> solutionUrlMap;
+// Global maps to store my DSA problems and their solutions
+// I chose map over unordered_map because I needed ordered iteration
+// and for 455 entries, the performance difference is negligible
+map<int,string> problemLineMap;  // line number -> problem statement
+map<int,string> solutionUrlMap;  // line number -> GeeksforGeeks URL
 
-// Structure to hold search results with their relevance score
+// I created this struct to handle multi-word searches better
+// Initially I was just returning the first match, but realized I needed
+// proper ranking based on how many search terms match each problem
 struct SearchResult {
     int lineNumber;
     string problemText;
     string solutionURL;
-    int matchCount;
+    int matchCount;  // How many search words matched this problem
     
     // Constructor
     SearchResult(int ln, string text, string url, int count) : 
         lineNumber(ln), problemText(text), solutionURL(url), matchCount(count) {}
     
-    // For sorting in descending order of match count
+    // Overloaded < operator for sorting results by relevance
+    // Higher match count = more relevant = should appear first
     bool operator < (const SearchResult& other) const {
         return matchCount > other.matchCount; // Note: ">" for descending order
     }
@@ -259,7 +278,8 @@ int main(int argc, char* argv[]){
         ++i;
     }
     
-    // check entered string is empty or not and then inserting & mapping the string with key and value in queryWordMap Map
+    // Parse and validate the query - I limit to 20 words max for performance
+    // Most DSA queries are 2-3 words anyway (like "binary search tree")
     int noOfwords = i;
     cerr << "Query contains " << noOfwords << " words" << endl;
     

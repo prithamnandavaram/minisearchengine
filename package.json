@@ -1,12 +1,13 @@
 {
-  "name": "mini-search-engine",
+  "name": "pritham-dsa-search-engine",
   "version": "1.0.0",
-  "description": "C++ based search engine for DSA problems with web interface",
+  "description": "Personal search engine for my DSA problem collection - built during interview prep",
   "main": "web-interface/server.js",
   "scripts": {
-    "build": "g++ -o search_engine Mini_Search_Engine_CLI.cpp -std=c++11",
+    "build": "echo 'Compiling C++ search engine...' && g++ -o search_engine Mini_Search_Engine_CLI.cpp -std=c++11",
     "start": "npm run build && cd web-interface && npm install && node server.js",
-    "dev": "cd web-interface && node server.js"
+    "dev": "cd web-interface && node server.js",
+    "test-search": "./search_engine"
   },
   "engines": {
     "node": ">=14.0.0"
@@ -21,12 +22,10 @@
     "cpp",
     "data-structures",
     "dsa",
-    "algorithms"
+    "stl",
+    "interview-prep",
+    "personal-project"
   ],
   "author": "Pritham Nandavaram",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/your-username/mini-search-engine.git"
-  }
+  "license": "MIT"
 }
