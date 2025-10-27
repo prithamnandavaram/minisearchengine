@@ -26,26 +26,27 @@ Smart search through my DSA problem collection:
 **Frontend:** Vanilla HTML/CSS/JS  
 **Data:** Text files (problems + solution URLs)
 
-## How It Works
-
-1. **Data Storage:** Problems stored in `Generic_Problem.txt`, URLs in `Generic_Solution.txt`
-2. **Search Logic:** C++ engine tokenizes query, uses regex to find matches
-3. **Ranking:** Counts how many query words match each problem
-4. **Results:** Returns ranked results with solution links
-
 ## Running Locally
 
 ```bash
-# Compile the C++ engine
-g++ -o search_engine Mini_Search_Engine_CLI.cpp -std=c++11
-
-# Start the web server
-cd web-interface
+# Quick start
 npm install
-node server.js
+npm start
+
+# Or manually:
+g++ -o search_engine Mini_Search_Engine_CLI.cpp -std=c++11
+cd web-interface && npm install && node server.js
 
 # Visit http://localhost:3000
 ```
+
+## Deployment (Render)
+
+1. Fork/clone this repo
+2. Connect to [Render.com](https://render.com)
+3. Build Command: `npm run build`
+4. Start Command: `npm start`
+5. Auto-deploys on push!
 
 ## Architecture
 
@@ -53,7 +54,20 @@ node server.js
 Query → Node.js API → C++ Search Engine → Ranked Results → JSON Response
 ```
 
-The C++ engine handles the heavy lifting (file parsing, regex matching, ranking) while Node.js provides the web interface.
+The C++ engine handles file parsing, regex matching, and ranking. Node.js provides the web interface and API.
+
+## Project Structure
+
+```
+minisearchengine/
+├── Mini_Search_Engine_CLI.cpp   # C++ search engine
+├── Generic_Problem.txt           # Problem database
+├── Generic_Solution.txt          # Solution URLs
+├── package.json                  # Build scripts
+└── web-interface/
+    ├── server.js                 # Express API
+    └── public/                   # Frontend
+```
 
 ## Sample Searches
 
@@ -68,72 +82,34 @@ The C++ engine handles the heavy lifting (file parsing, regex matching, ranking)
 - File I/O and memory management in C++
 - Building REST APIs with Node.js
 - System design for search applications
+- Deployment and DevOps basics
+
+## Key Features
+
+**Multi-word Search:** Query is tokenized and each word is searched independently  
+**Relevance Ranking:** Results ranked by how many search terms match  
+**Case Insensitive:** Matches "Array", "array", and "ARRAY"  
+**Smart Pattern Matching:** Word boundaries prevent partial matches  
+**Real-time Results:** Instant search through 455+ problems
+
+## Development Journey
+
+Built over 7 days during interview prep. Main challenges:
+- Regex pattern matching (word boundaries)
+- Vector bounds checking for multi-word queries
+- File path handling for deployment
+- Result ranking algorithm design
 
 ## Future Improvements
 
-- Add auto-complete using Trie data structure
-- Implement fuzzy search for typos
-- Cache frequent queries
-- Add problem difficulty filtering
+- Auto-complete using Trie data structure
+- Fuzzy search for typos (Levenshtein distance)
+- Query caching with LRU eviction
+- Problem difficulty filtering
 - Mobile app version
 
 ---
 
-**Note:** This is my personal problem tracker turned into a search engine. The database contains Striver's A2Z DSA sheet problems that I've been solving during my preparation.
-
-## Project Structure
-
-```
-minisearchengine/
-├── search_engine          # The compiled C++ executable
-├── Mini_Search_Engine_CLI.cpp   # Modified C++ code for CLI usage
-└── web-interface/
-    ├── public/
-    │   ├── index.html     # Web interface HTML
-    │   ├── styles.css     # CSS styles
-    │   └── script.js      # Frontend JavaScript
-    ├── package.json       # Node.js dependencies
-    ├── server.js          # Node.js server code
-    └── node_modules/      # Node dependencies (generated)
-```
-
-## How It Works
-
-1. The C++ code has been modified to accept command-line arguments and output results in a format that can be parsed by the Node.js server.
-2. The Node.js server receives search queries from the web interface, executes the C++ program, and returns the results.
-3. The web interface allows users to enter search queries and displays the results in a user-friendly manner.
-
-## How to Run
-
-1. Compile the C++ code (if not already done):
-   ```
-   g++ -std=c++11 Mini_Search_Engine_CLI.cpp -o search_engine
-   ```
-
-2. Install Node.js dependencies:
-   ```
-   cd web-interface
-   npm install
-   ```
-
-3. Start the Node.js server:
-   ```
-   cd web-interface
-   node server.js
-   ```
-
-4. Open your browser and navigate to:
-   ```
-   http://localhost:3000
-   ```
-
-## Requirements
-
-- C++ compiler with C++11 support
-- Node.js
-- npm (Node Package Manager)
-
-## Notes
-
-- The search engine looks for matches in the `Generic_Problem.txt` file and returns corresponding URLs from the `Generic_Solution.txt` file.
-- If no match is found, the query is added to the problems file for future reference.
+**Repository:** [github.com/prithamnandavaram/minisearchengine](https://github.com/prithamnandavaram/minisearchengine)  
+**Tech:** C++11, STL, Node.js, Express, Regex  
+**Database:** Striver's A2Z DSA Sheet (455 problems)
